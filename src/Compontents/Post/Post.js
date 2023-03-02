@@ -1,5 +1,4 @@
 import React from 'react'
-// import Like from '../Like/Like'
 import './Post.css'
 
 const Post = (props) => {
