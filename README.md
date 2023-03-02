@@ -15,3 +15,25 @@ You can also install and setup Babel if you would like.
 #### Install Dependencies
 
 * Axios
+
+npm install
+
+#### App.js
+
+* Feed Component is rendered 
+
+#### Componentents - Feed - Feed.js
+
+* componentDidMount fetches information from the Tech Crunch API.
+* While it's fetching that information it displays the Loader component
+* When finished fetching it stops displaying the Loader and displays the fetched articles 
+* It maps the information using a Post component 
+
+#### Componentents - Post - Post.js 
+
+* Anchor element around the Div with the article link
+* Title displayed
+* Author and date displayed (Time in US format)
+* Image element
+* Description (Excerpt)
+* Hover animation
