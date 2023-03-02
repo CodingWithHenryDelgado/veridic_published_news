@@ -1,7 +1,6 @@
 import React from 'react'
 import axios from 'axios'
 import Loader from '../Loader/Loader'
-import Message from './../Message/Message'
 import Post from '../Post/Post'
 import './Feed.css'
 
@@ -19,9 +18,6 @@ export default class Feed extends React.Component {
                 newState.pictureInfo = pictureInfo
                 newState.loading = false
                 this.setState(newState)
-            })
-            .catch((err) => {
-                <Message>{err}</Message>
             })
     }
 
