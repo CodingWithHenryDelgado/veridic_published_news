@@ -43,11 +43,11 @@ export default class Feed extends React.Component {
                                     key={info.id}
                                     copyright={info['parselyMeta']['parsely-author']}
                                     date={info.date}
-                                    explanation={info.excerpt.rendered.replace(/(<\/?p>)|(\[[^\]]*\])/gi, "")}
+                                    explanation={info.excerpt.rendered.replace(/(<\/?p>)|(<.*?>)|(&#?\w+;)|(\[[^\]]*\])/gi, "")}
                                     hdurl={info.jetpack_featured_media_url}
                                     canonical_url={info.canonical_url}
                                     id={info.id}
-                                    title={info.title.rendered}
+                                    title={info.title.rendered.replace(/(<\/?p>)|(<.*?>)|(&#?\w+;)|(\[[^\]]*\])/gi, "")}
                                 />
                             ))
                     }
