@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/veridic_published_news/static/css/main.164be5dc.css",
+    "main.js": "/veridic_published_news/static/js/main.ce2ed62f.js",
+    "static/js/787.cf13d667.chunk.js": "/veridic_published_news/static/js/787.cf13d667.chunk.js",
+    "index.html": "/veridic_published_news/index.html",
+    "main.164be5dc.css.map": "/veridic_published_news/static/css/main.164be5dc.css.map",
+    "main.ce2ed62f.js.map": "/veridic_published_news/static/js/main.ce2ed62f.js.map",
+    "787.cf13d667.chunk.js.map": "/veridic_published_news/static/js/787.cf13d667.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.164be5dc.css",
+    "static/js/main.ce2ed62f.js"
+  ]
+}
